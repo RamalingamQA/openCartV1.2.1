@@ -1,0 +1,46 @@
+19:01:09.812 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Rams\AppData\Local\Temp\testng-eclipse--434965670\testng-customsuite.xml"
+19:01:10.136 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:01:10.139 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+19:01:10.140 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:01:10.141 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:01:10.141 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:01:10.142 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:01:10.142 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:01:10.142 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:01:10.146 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+19:01:10.156 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+19:01:10.157 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:01:10.157 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:01:10.158 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:01:10.158 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:01:10.158 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:01:10.159 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:01:10.160 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:01:10.160 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:01:10.161 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:01:10.161 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:01:10.164 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:01:10.164 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:01:10.164 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:01:10.164 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:01:10.168 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+19:01:10.168 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:01:10.171 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:01:10.171 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:01:10.171 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:01:10.171 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:01:10.181 {main} INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Rams\AppData\Local\Temp\testng-eclipse--434965670\testng-customsuite.xml
+
+19:01:10.216 {main} INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+19:01:13.027 {main} INFO  testCases.TC001_LoginPage - ----Execution Started-----
+19:01:13.058 {main} INFO  testCases.TC001_LoginPage - ---userName is entered----
+19:01:13.278 {main} INFO  testCases.TC001_LoginPage - ---password is entered----
+19:01:13.391 {main} INFO  testCases.TC001_LoginPage - ---buton is clicked----
+19:01:15.960 {main} INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@1704f67f: 90 ms
+19:01:15.960 {main} INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@e4d2696: 0 ms
+19:01:15.972 {main} INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4390f46e: 11 ms
+19:01:15.978 {main} INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@12f8b1d8: 5 ms
+19:01:15.988 {main} INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2bf94401: 10 ms
+19:01:15.988 {main} INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2532b351: 0 ms
+16:00:40.021 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Rams\AppData\Local\Temp\testng-eclipse--1755823812\testng-customsuite.xml"

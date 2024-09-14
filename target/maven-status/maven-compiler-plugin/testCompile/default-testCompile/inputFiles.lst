@@ -1,0 +1,13 @@
+C:\WorkArea\openCartV1.2.1\src\test\java\pageObjects\BasePage.java
+C:\WorkArea\openCartV1.2.1\src\test\java\pageObjects\HomePage.java
+C:\WorkArea\openCartV1.2.1\src\test\java\pageObjects\loginPage.java
+C:\WorkArea\openCartV1.2.1\src\test\java\pageObjects\MyAccount.java
+C:\WorkArea\openCartV1.2.1\src\test\java\pageObjects\RegistrationPage.java
+C:\WorkArea\openCartV1.2.1\src\test\java\testBase\BaseClass.java
+C:\WorkArea\openCartV1.2.1\src\test\java\testBase\dataProviders.java
+C:\WorkArea\openCartV1.2.1\src\test\java\testCases\summa.java
+C:\WorkArea\openCartV1.2.1\src\test\java\testCases\TC001_AccountRegistration.java
+C:\WorkArea\openCartV1.2.1\src\test\java\testCases\TC002_LoginDDT.java
+C:\WorkArea\openCartV1.2.1\src\test\java\testCases\TC002_LoginPage.java
+C:\WorkArea\openCartV1.2.1\src\test\java\utilities\ExcelUtils.java
+C:\WorkArea\openCartV1.2.1\src\test\java\utilities\ExtentReport.java

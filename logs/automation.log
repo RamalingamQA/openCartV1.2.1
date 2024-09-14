@@ -1,0 +1,68 @@
+23:17:14.731 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+23:17:14.741 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+23:17:14.742 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:14.743 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:14.743 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:14.743 {main} INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:14.751 {main} INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Rams\AppData\Local\Temp\testng-eclipse-1166349675\testng-customsuite.xml
+
+23:17:14.769 {main} INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+23:17:18.589 {main} INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@bdc8014: 63 ms
+23:17:18.601 {main} INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@60e5272: 12 ms
+23:17:18.612 {main} INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@71870da7: 11 ms
+23:17:18.621 {main} INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3b6c624: 9 ms
+23:17:18.630 {main} INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@14fc5d40: 9 ms
+23:17:18.631 {main} INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@51e0301d: 1 ms
+11:21:36.146 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+11:21:36.515 {main} INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\WorkArea\openCartV1.2.1\master.xml
+
+11:21:40.746 {main} INFO  testCases.TC002_LoginPage - chrome
+11:24:04.616 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+11:24:04.925 {main} INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\WorkArea\openCartV1.2.1\master.xml
+
+11:24:07.231 {main} INFO  testCases.TC002_LoginPage - chrome
+11:27:07.752 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+11:27:08.175 {main} INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\WorkArea\openCartV1.2.1\master.xml
+
+11:27:10.289 {main} INFO  testCases.TC002_LoginPage - chrome
+11:27:39.813 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+11:27:40.136 {main} INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\WorkArea\openCartV1.2.1\master.xml
+
+11:28:44.642 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+11:28:44.986 {main} INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\WorkArea\openCartV1.2.1\master.xml
+
+11:32:35.610 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+11:32:35.939 {main} INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\WorkArea\openCartV1.2.1\master.xml
+
+11:34:51.030 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+11:34:51.547 {main} INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\WorkArea\openCartV1.2.1\master.xml
+
+11:36:34.678 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+11:36:35.034 {main} INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\WorkArea\openCartV1.2.1\master.xml
+
+11:37:12.331 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+11:37:12.665 {main} INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\WorkArea\openCartV1.2.1\master.xml
+
+20:34:01.541 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+20:35:28.677 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+20:39:44.270 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+20:41:00.839 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+20:45:42.594 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+20:45:43.040 {main} INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\WorkArea\openCartV1.2.1\master.xml
+
+20:49:18.132 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
+20:49:18.605 {main} INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\WorkArea\openCartV1.2.1\master.xml
+
+20:53:22.718 {main} DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkArea\openCartV1.2.1\master.xml"
