@@ -7,17 +7,22 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
+
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Capabilities;
 ///import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
 //import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 //import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -30,7 +35,7 @@ public class BaseClass {
 
 	@Parameters({"browser","OS"})
 	@BeforeClass(groups= {"Master","Regression","Sanity"})
-	public void setUp(String br,String os) throws IOException {
+	private void setUp(String br,String os) throws IOException {
 		
 		//properties file
 		FileReader file= new FileReader("./src//test//resources//config.properties");
@@ -40,6 +45,30 @@ public class BaseClass {
 		//creating logs
 		logger=LogManager.getLogger(this.getClass());
 		
+		//selenium grid
+		if(p.getProperty("execution_env").equalsIgnoreCase("remote")){
+			DesiredCapabilities capabilities=new DesiredCapabilities();
+			switch(os.toLowerCase()) {
+			case "windows": capabilities.setPlatform(Platform.WIN11);break;
+			case "linux": capabilities.setPlatform(Platform.LINUX);break;
+			default: System.out.println("invalidOS");return;
+			}
+			//browser
+			switch(br.toLowerCase()) {
+			case "chrome": capabilities.setBrowserName("chrome");break;
+			case "edge": capabilities.setBrowserName("MicrosoftEdge");break;
+			case"firefox":capabilities.setBrowserName("firefox");break;
+			default:System.out.println("Enter valid browser");return;
+			}
+			
+			//initialising browser based on os and br
+			
+			/*driver=new RemoteWebDriver(new("http://localhost:4444/wb/hub"));*/
+			
+		}
+		
+		
+		//if(p.getProperty("os").equalsIgnoreCase("local")) {
 		switch(br.toLowerCase()) {
 		case "chrome": driver=new ChromeDriver();break;
 		case "edge": driver=new EdgeDriver();break;

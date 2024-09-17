@@ -12,7 +12,6 @@
         <methods>
           <include name="tearDown"/>
           <include name="login"/>
-          <include name="setUp"/>
         </methods>
       </class> <!-- testCases.TC002_LoginPage -->
     </classes>
