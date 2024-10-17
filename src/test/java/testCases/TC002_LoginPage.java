@@ -7,8 +7,9 @@ import pageObjects.HomePage;
 import pageObjects.MyAccount;
 import pageObjects.loginPage;
 import testBase.BaseClass;
+import testBase.BaseClass2;
 
-public class TC002_LoginPage extends BaseClass{
+public class TC002_LoginPage extends BaseClass2{
 	
 	@Test(groups= {"Regression","Master"})
 	public void login() throws InterruptedException {

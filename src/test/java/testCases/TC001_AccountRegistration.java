@@ -6,8 +6,9 @@ import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.RegistrationPage;
 import testBase.BaseClass;
+import testBase.BaseClass2;
 
-public class TC001_AccountRegistration extends BaseClass {
+public class TC001_AccountRegistration extends BaseClass2 {
 	@Test(groups= {"Sanity","Master"})
 	public void registration() throws InterruptedException {
 		try {

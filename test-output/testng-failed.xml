@@ -5,15 +5,16 @@
     <listener class-name="utilities.ExtentReport"/>
   </listeners>
   <test thread-count="5" name="testChrome(failed)">
-    <parameter name="OS" value="Windows"/>
-    <parameter name="browser" value="chrome"/>
+    <parameter name="Os" value="Windows"/>
+    <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC002_LoginPage">
+      <class name="testCases.TC002_LoginDDT">
         <methods>
-          <include name="tearDown"/>
-          <include name="login"/>
+          <include name="setup"/>
+          <include name="login" invocation-numbers="1 2"/>
+          <include name="TearDown"/>
         </methods>
-      </class> <!-- testCases.TC002_LoginPage -->
+      </class> <!-- testCases.TC002_LoginDDT -->
     </classes>
   </test> <!-- testChrome(failed) -->
 </suite> <!-- Failed suite [openCartsuite] -->

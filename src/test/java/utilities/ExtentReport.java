@@ -14,7 +14,8 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import testBase.BaseClass;
+//import testBase.BaseClass;
+import testBase.BaseClass2;
 
 public class ExtentReport implements ITestListener{
 	public ExtentSparkReporter sp;
@@ -65,7 +66,7 @@ public class ExtentReport implements ITestListener{
 		    test.log(Status.FAIL, result.getName()+" is failed");
 		    test.info(result.getThrowable().getMessage());
 		    try {
-		    	String impPath=new BaseClass().capturescreenshot(result.getName());//send testmethod name to base class to make the screenshot stored with test method name
+		    	String impPath=new BaseClass2().capturescreenshot(result.getName());//send testmethod name to base class to make the screenshot stored with test method name
 		    	test.addScreenCaptureFromPath(impPath);
 		    	}
 		    catch(Exception e) {

@@ -6,15 +6,15 @@ import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.MyAccount;
 import pageObjects.loginPage;
-import testBase.BaseClass;
+import testBase.BaseClass2;
 import testBase.dataProviders;
 
-public class TC002_LoginDDT extends BaseClass{
+public class TC002_LoginDDT extends BaseClass2{
 	@Test(dataProvider="LoginData",dataProviderClass=dataProviders.class)
 	public void login(String userName, String pwd, String exp) throws InterruptedException {
 		try
 		{
-		logger.info("Execution started");
+		//logger.info("Execution started");
 		//HomePage
 		HomePage hp=new HomePage(driver);
 		hp.accountBtn();
